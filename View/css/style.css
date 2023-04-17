@@ -1,0 +1,67 @@
+
+      .colunaTabela{
+        width: 50%;
+        margin-left: 10%;
+      }
+      .cardOpcoes{
+        max-width: 18rem; 
+        text-align: center;
+        margin-top: 2%;
+        display: flex; 
+        justify-content: center;
+        margin-left: 2%;
+        
+      }
+      body{
+        background-color:#c1e6ef ;      
+        background-repeat: no-repeat;
+      }
+      .imgCard{
+        position: relative; 
+        width: 40%;
+        height: 40%;
+        
+      }
+      .divButton{
+        padding-top:2rem ;
+      }
+      .tamButton{
+        width: 250px;
+      }     
+    
+
+      #lapis{
+        display: flex; 
+        justify-content: space-between;
+      }
+
+      #btnVoltar{
+        width: 8%; height: 8%; display: flex; justify-content: flex-start;
+      }
+
+      #corpoCard{
+        display: flex; 
+        justify-content: center;
+        flex-direction: row;
+      }
+
+      #telaInicio{
+        position: relative; 
+        width: 80%;
+        height: 80%;
+
+      }
+      #botoesInicio{
+        position: absolute;
+      }
+
+      @media screen and (max-width: 768px){
+        .corpoCardMobile{
+          flex-direction: column !important;
+        }
+        .cardOpcoes{
+          width: 100%;
+          padding: 20px;
+        }
+      }
+
